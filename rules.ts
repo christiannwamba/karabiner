@@ -69,7 +69,7 @@ const rules: KarabinerRules[] = [
     // o = "Open" applications
     o: {
       1: app("1Password"),
-      g: app("Google Chrome"),
+      g: app("Arc"),
       c: app("Notion Calendar"),
       v: app("Visual Studio Code"),
       d: app("Discord"),
@@ -125,8 +125,8 @@ const rules: KarabinerRules[] = [
       },
       y: rectangle("previous-display"),
       o: rectangle("next-display"),
-      k: rectangle("top-half"),
-      j: rectangle("bottom-half"),
+      k: rectangle("last-third"),
+      j: rectangle("first-two-thirds"),
       h: rectangle("left-half"),
       l: rectangle("right-half"),
       f: rectangle("maximize"),
